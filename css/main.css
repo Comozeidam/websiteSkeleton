@@ -1,0 +1,42 @@
+/*Template Image used to fill in space and test*/
+.testimg {
+  height: 200px;
+  width:100%;
+  background: #aaa;
+  text-align: center;
+  
+}
+/*Sets height and width for the logo in the navbar*/
+.nav-img{
+
+  max-width: 100px; /*Change per your image*/
+  max-height: 100%; /*Change per your image*/
+}
+
+/*Used for scroll and text animations apply to elements that you need to animate*/
+.animate{
+  display: gridplace;
+  place-items: center;
+  align-content: center;
+  
+}
+/*Used for scroll and text animations apply to elements that you need to animate*/
+.hidden {
+  opacity:0;
+  transform: translateY(-50%);
+  filter: blur(5px);
+  transition: all 1s;
+}
+/*DO NOT CHANGE*/
+.show {
+  opacity: 1;
+  transform: translateY(0);
+  filter:blur(0);
+}
+/*For people who prefer reduced motion*/
+@media(prefers-reduced-motion){
+  .hidden {
+      transition:none;
+
+  }
+}

@@ -1,3 +1,6 @@
-This is a website skeleton that I use.
-It contains bootstrap plus a fallback and jQuery
-It is responsive and contains a loading screen.
+A Website Skeleton Designed with reliability and redundancy in mind.
+
+Contains:
+-  Scroll Animations
+-  jQuery with a local fallback
+-  Bootstrap CSS and JS with local fallbacks
